@@ -13,3 +13,4 @@ $testObj= new Test();
 $testObj->name = 'vasya';
 var_dump($testObj);
 echo ($testObj->name);
+
