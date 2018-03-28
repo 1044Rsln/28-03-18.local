@@ -17,5 +17,5 @@ spl_autoload_register(function ($class){
 $human = new Human('vasya', 'pupkin', 22, 'troickaya');
 echo $human;
 
-$student  =  new Student ('kolya','vasin',33,'bankovskaya'); 
+$student  =  new Student ('kolya','vasin',33,'bankovskaya', 'el-sds', 'sd@dsf.com'); 
 echo $student;
