@@ -19,3 +19,5 @@ echo $human;
 
 $student  =  new Student ('kolya','vasin',33,'bankovskaya', 'el-sds', 'sd@dsf.com'); 
 echo $student;
+
+$taxi = new Taxi
