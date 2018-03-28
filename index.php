@@ -14,10 +14,11 @@ spl_autoload_register(function ($class){
 //var_dump($testObj);
 //echo ($testObj->name);
 
-$human = new Human('vasya', 'pupkin', 22, 'troickaya');
-echo $human;
+//$human = new Human('vasya', 'pupkin', 22, 'troickaya');
+//echo $human;
+//
+//$student  =  new Student ('kolya','vasin',33,'bankovskaya', 'el-sds', 'sd@dsf.com'); 
+//echo $student;
 
-$student  =  new Student ('kolya','vasin',33,'bankovskaya', 'el-sds', 'sd@dsf.com'); 
-echo $student;
-
-$taxi = new Taxi
+$taxi = new Taxi (2, 'sedan','yellow','ae 1234 ea', 66, 'taxi');
+echo $taxi;
