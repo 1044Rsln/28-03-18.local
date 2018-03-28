@@ -14,18 +14,18 @@ class Human {
      * @param int $age
      * @param mixed $address
      */
-    public function __construct($name, $surame, $age, $address) {
+    public function __construct($name, $surname, $age, $address) {
         $this->name=$name;
-        $this->name=$surname;
-        $this->name=$age;
-        $this->name=$address;
+        $this->surname=$surname;
+        $this->age=$age;
+        $this->address=$address;
     }
     public function __toString() {
         $str = '';
-        $str .= 'Name: ' . $this->name=$name;
-        $str .= 'Surname: ' . $this->surname=$suname;
-        $str .= 'Age: ' . $this->age=$age;
-        $str .= 'Address: ' . $this->name=$name;
+        $str .= 'Name: ' . $this->name;
+        $str .= 'Surname: ' . $this->surname;
+        $str .= 'Age: ' . $this->age;
+        $str .= 'Address: ' . $this->address;
         return $str;
     }
 }
