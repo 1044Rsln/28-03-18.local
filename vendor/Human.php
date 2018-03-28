@@ -22,10 +22,10 @@ class Human {
     }
     public function __toString() {
         $str = '';
-        $str .= 'Name: ' . $this->name;
-        $str .= 'Surname: ' . $this->surname;
-        $str .= 'Age: ' . $this->age;
-        $str .= 'Address: ' . $this->address;
+        $str .= 'Name: ' . $this->name . '</br>';
+        $str .= 'Surname: ' . $this->surname . '</br>';
+        $str .= 'Age: ' . $this->age . '</br>';
+        $str .= 'Address: ' . $this->address . '</br>';
         return $str;
     }
 }
