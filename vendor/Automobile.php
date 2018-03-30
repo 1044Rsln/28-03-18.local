@@ -2,11 +2,33 @@
 
 
 class Automobile {
+    /**
+     *
+     * @var int
+     */
     protected $angine;
+    /**
+     *
+     * @var string
+     */
     protected $body_type;
+    /**
+     *
+     * @var string
+     */
     protected $color;
+    /**
+     *
+     * @var string
+     */
     protected $state_number;
-    
+    /**
+     * 
+     * @param int $angine
+     * @param string $body_type
+     * @param string $color
+     * @param string $state_number
+     */
       public function __construct($angine, $body_type, $color, $state_number) {
         $this->angine=$angine;
         $this->body_type=$body_type;
